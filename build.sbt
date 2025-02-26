@@ -239,7 +239,7 @@ lazy val mdoc = project
       else
         "org.scala-lang" % "scala-compiler" % scalaVersion.value
     },
-    libraryDependencies ++= jsoniter,
+    // libraryDependencies ++= jsoniter,
     libraryDependencies ++= List(
       "com.googlecode.java-diff-utils" % "diffutils" % "1.3.0",
       "io.methvin" % "directory-watcher" % "0.18.0",
